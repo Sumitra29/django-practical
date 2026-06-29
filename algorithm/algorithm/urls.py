@@ -20,4 +20,5 @@ from algoapp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path(r'api/', views.algobooks_view),
+    path(r'jsonapi/', views.algobooks_json_view),
 ]

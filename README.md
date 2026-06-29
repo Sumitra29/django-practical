@@ -1,6 +1,6 @@
 # Django REST API Practical
 
-A beginner-friendly Django project for learning the fundamentals of Django and Django REST Framework through practical examples.
+A practical Django project designed to learn the fundamentals of Django and Django REST Framework, including URL routing, function-based views, and serving HTML and JSON responses.
 
 ## 🚀 Features
 
@@ -10,6 +10,7 @@ A beginner-friendly Django project for learning the fundamentals of Django and D
 * Basic URL routing
 * Function-based views
 * HTML response using `HttpResponse`
+* JSON response using Python's `json` module
 
 ## 📂 Project Structure
 
@@ -71,22 +72,11 @@ http://127.0.0.1:8000/api/
 ```
 
 ## 📌 Available Endpoint
-
-| Method | Endpoint | Description                                            |
-| ------ | -------- | ------------------------------------------------------ |
-| GET    | `/api/`  | Returns algorithm book information as an HTML response |
-
-### Sample Response
-
-```html
-<h2>
-book_name: Grokking Algorithms
-<br>
-author_name: Aditya Y. Bhargava
-<br>
-edition: 2
-</h2>
-```
+ 
+| Method | Endpoint     | Description                                            |
+| ------ | --------     | ------------------------------------------------------ |
+| GET    | `/api/`      | Returns algorithm book information as an HTML response |
+| GET    | `/jsonapi/`  | Returns algorithm book information as an json response |
 
 ## 🛠 Technologies Used
 
@@ -95,20 +85,20 @@ edition: 2
 * Django REST Framework
 * SQLite
 
-## 📖 What I Learned
-
-* Creating a Django project
-* Creating a Django app
-* URL routing
-* Function-based views
-* Returning an HTML response using `HttpResponse`
-
-## Practical Project Demo
+## Django REST-API using HTML
 <p align="center">
   <img src="1.gif" width="45%" alt="Voice-Automation">
 </p>
 <p align="center">
   <em>Django REST-API using HTML</em>
+</p>
+
+## Django REST-API using JSON Module
+<p align="center">
+  <img src="2.gif" width="45%" alt="Voice-Automation">
+</p>
+<p align="center">
+  <em>Django REST-API using JSON</em>
 </p>
 
 ## 👨‍💻 Author
