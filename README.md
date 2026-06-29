@@ -103,12 +103,12 @@ edition: 2
 * Function-based views
 * Returning an HTML response using `HttpResponse`
 
-## Demo
+## Practical Project Demo
 <p align="center">
   <img src="1.gif" width="45%" alt="Voice-Automation">
 </p>
 <p align="center">
-  <em>Django RESTAPI using HTML</em>
+  <em>Django REST-API using HTML</em>
 </p>
 
 ## 👨‍💻 Author
