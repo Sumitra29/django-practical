@@ -11,6 +11,7 @@ A practical Django project designed to learn the fundamentals of Django and Djan
 * Function-based views
 * HTML response using `HttpResponse`
 * JSON response using Python's `json` module
+* API testing using HTTPie
 
 ## 📂 Project Structure
 
@@ -73,10 +74,17 @@ http://127.0.0.1:8000/api/
 
 ## 📌 Available Endpoint
  
-| Method | Endpoint     | Description                                            |
-| ------ | --------     | ------------------------------------------------------ |
-| GET    | `/api/`      | Returns algorithm book information as an HTML response |
-| GET    | `/jsonapi/`  | Returns algorithm book information as an json response |
+| Method | Endpoint         | Description                                            |
+| ------ | --------         | ------------------------------------------------------ |
+| GET    | `/api/`          | Returns algorithm book information as an HTML response |
+| GET    | `/jsonapi/`      | Returns algorithm book information as a JSON response  |
+
+## 🧪 Testing with HTTPie
+
+```bash
+http http://127.0.0.1:8000/api/
+http http://127.0.0.1:8000/jsonapi/
+```
 
 ## 🛠 Technologies Used
 
@@ -87,7 +95,7 @@ http://127.0.0.1:8000/api/
 
 ## Django REST-API using HTML
 <p align="center">
-  <img src="1.gif" width="45%" alt="Voice-Automation">
+  <img src="1.gif" width="45%" alt="Django REST-API using HTML">
 </p>
 <p align="center">
   <em>Django REST-API using HTML</em>
@@ -95,10 +103,18 @@ http://127.0.0.1:8000/api/
 
 ## Django REST-API using JSON Module
 <p align="center">
-  <img src="2.gif" width="45%" alt="Voice-Automation">
+  <img src="2.gif" width="45%" alt="Django REST-API using JSON Module">
 </p>
 <p align="center">
-  <em>Django REST-API using JSON</em>
+  <em>Django REST-API using JSON Module</em>
+</p>
+
+## Testing the JSON API with HTTPie
+<p align="center">
+  <img src="3.gif" width="45%" alt="Testing the JSON API with HTTPie">
+</p>
+<p align="center">
+  <em>Testing the JSON API with HTTPie</em>
 </p>
 
 ## 👨‍💻 Author
