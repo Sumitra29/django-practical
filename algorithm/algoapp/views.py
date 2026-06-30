@@ -20,3 +20,22 @@ def algobooks_json_view(request):
     }
     json_data = json.dumps(algobooks_data)
     return HttpResponse(json_data, content_type='application/json')
+
+from django.http import JsonResponse
+def algobooks_json_view2(request):
+    algobooks_data={
+        'book_name': 'Grokking Algorithms',
+        'author_name' : 'Aditya Y. Bhargava',  
+        'edition' : 2,
+    }
+    return JsonResponse(algobooks_data)
+
+from django.views.generic import View
+class Jsoncommunication(View):
+    def get(self, request, *args, **kwargs):
+        algobooks_data={
+        'book_name': 'Grokking Algorithms',
+        'author_name' : 'Aditya Y. Bhargava',  
+        'edition' : 2,
+        }
+        return JsonResponse(algobooks_data)

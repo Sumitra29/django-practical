@@ -21,4 +21,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path(r'api/', views.algobooks_view),
     path(r'jsonapi/', views.algobooks_json_view),
+    path(r'jsonview2api/', views.algobooks_json_view2),
+    path(r'comapi/', views.Jsoncommunication.as_view())
 ]

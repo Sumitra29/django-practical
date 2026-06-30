@@ -12,6 +12,8 @@ A practical Django project designed to learn the fundamentals of Django and Djan
 * HTML response using `HttpResponse`
 * JSON response using Python's `json` module
 * API testing using HTTPie
+* JSON view using JsonResponse
+* Communication between Django and Python using JSON
 
 ## 📂 Project Structure
 
@@ -37,7 +39,8 @@ algorithm/
 │   └── __init__.py
 │
 ├── README.md
-└── requirements.txt
+├── requirements.txt
+└── test.py
 ```
 
 ## ⚙️ Installation
@@ -74,10 +77,11 @@ http://127.0.0.1:8000/api/
 
 ## 📌 Available Endpoint
  
-| Method | Endpoint         | Description                                            |
-| ------ | --------         | ------------------------------------------------------ |
-| GET    | `/api/`          | Returns algorithm book information as an HTML response |
-| GET    | `/jsonapi/`      | Returns algorithm book information as a JSON response  |
+| Method | Endpoint              | Description                                            |
+| ------ | --------              | ------------------------------------------------------ |
+| GET    | `/api/`               | Returns algorithm book information as an HTML response |
+| GET    | `/jsonapi/`           | Returns algorithm book information as a JSON response  |
+| GET    | `/jsonview2api/`      | Returns algorithm book information as a JSON response  |
 
 ## 🧪 Testing with HTTPie
 
@@ -115,6 +119,22 @@ http http://127.0.0.1:8000/jsonapi/
 </p>
 <p align="center">
   <em>Testing the JSON API with HTTPie</em>
+</p>
+
+## Json View using django
+<p align="center">
+  <img src="4_2nd_json_view.gif" width="45%" alt="Json View using django">
+</p>
+<p align="center">
+  <em>Json View using django</em>
+</p>
+
+## Creating Communication between Django app and Python using JSON
+<p align="center">
+  <img src="communication_bet_py_json.gif" width="45%" alt="Creating Communication between Django app and Python using JSON">
+</p>
+<p align="center">
+  <em>Creating Communication between Django app and Python using JSON</em>
 </p>
 
 ## 👨‍💻 Author
