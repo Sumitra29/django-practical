@@ -131,7 +131,7 @@ http http://127.0.0.1:8000/jsonapi/
 
 ## Creating Communication between Django app and Python using JSON
 <p align="center">
-  <img src="communication_bet_py_json.gif" width="45%" alt="Creating Communication between Django app and Python using JSON">
+  <img src="5_communication_bet_py_json.gif" width="45%" alt="Creating Communication between Django app and Python using JSON">
 </p>
 <p align="center">
   <em>Creating Communication between Django app and Python using JSON</em>
